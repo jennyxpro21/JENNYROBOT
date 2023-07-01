@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐈ɴᴄʀɪᴄɪʙʟ𝐄 𝐌ᴜsɪ𝐂")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "〖°𝑱𝑬𝑵𝑵𝒀 𝑿 𝑴𝑼𝑺𝑰𝑪 🦋💙°〗")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5288547197").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5718117772").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mrtosumemon/GODFATHERMUSICOP")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/jennyxpro21/JENNYROBOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/INCRICIBLE_NETWORK")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/INCRICIBLE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KILLER_NETWRK")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/jenny_support")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
